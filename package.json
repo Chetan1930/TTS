@@ -1,10 +1,11 @@
 {
-  "homepage": "https://github.com/Chetan1930/TTS",
+  "homepage": "https://chetan1930.github.io/TTS/",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
