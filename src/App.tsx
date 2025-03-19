@@ -8,6 +8,7 @@ import PortfolioPage from './pages/PortfolioPage';
 import AboutPage from './pages/AboutPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import ContactPage from './pages/ContactPage';
+import BlogPage from './pages/BlogPage.tsx';
 
 function App() {
   return (
@@ -17,11 +18,11 @@ function App() {
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/testimonials" element={<TestimonialsPage />} />
+          <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>

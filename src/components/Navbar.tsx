@@ -28,10 +28,11 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Home</Link>
+            <Link to="/about" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">About Us</Link>
             <Link to="/services" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Services</Link>
             <Link to="/portfolio" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Portfolio</Link>
-            <Link to="/about" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">About</Link>
             <Link to="/testimonials" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Testimonials</Link>
+            <Link to="/blog" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Blog</Link>
             <Link to="/contact" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Contact</Link>
           </div>
 
@@ -57,10 +58,11 @@ const Navbar = () => {
           <div className="md:hidden mt-4 pb-4">
             <div className="flex flex-col space-y-4">
               <Link to="/" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Home</Link>
+              <Link to="/about" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition-colors duration-300">About Us</Link>
               <Link to="/services" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Services</Link>
               <Link to="/portfolio" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Portfolio</Link>
-              <Link to="/about" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition-colors duration-300">About</Link>
               <Link to="/testimonials" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Testimonials</Link>
+              <Link to="/blog" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Blog</Link>
               <Link to="/contact" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Contact</Link>
               <Link to="/contact" onClick={closeMenu}>
                 <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300 w-full">
